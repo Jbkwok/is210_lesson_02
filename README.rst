@@ -554,10 +554,11 @@ absence of data. It's closest equivalent in many other languages is ``Null``.
 Task 18: Data Type Conversion
 -----------------------------
 
-Way back in Task 1 we asked you to trigger an exception through an illegal
-statement. One of the suggested means of doing so was attempting to use the
-addition/concatenation operator to add an integer to a string. Since that's
-illegal, how would you combine these elements?
+The course text mentions that some operations are illegal between objects of
+different types. Such operations will raise an error. One of the suggested
+illegal operations was attempting to use the addition/concatenation operator to
+add an integer to a string. Since that's illegal, how would you combine these
+elements?
 
 #.  Open ``conversion.py``
 
